@@ -6,7 +6,7 @@ save-zsh-history
 ## Installation
 
 ```console
-> git clone git@github.com:r6eve/save-zsh-history.git
+> git clone https://github.com/r6eve/save-zsh-history.git
 > cd save-zsh-history
 # And, in src/main.rs, set unsave commands using regular expression.
 
