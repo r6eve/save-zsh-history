@@ -1,0 +1,8 @@
+[package]
+name = "zsh-history"
+version = "0.1.0"
+authors = ["r6eve <r6eve179f@gmail.com>"]
+
+[dependencies]
+lazy_static = "1.0.1"
+regex = "1.0.0"
