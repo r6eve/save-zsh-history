@@ -8,9 +8,10 @@ save-zsh-history
 ```console
 > git clone git@github.com:r6eve/save-zsh-history.git
 > cd save-zsh-history
+# And, in src/main.rs, set unsave commands using regular expression.
 
 > mv ~/.zsh_history .
-# And, in .zshrc, add the following line.
+# And, in ~/.zshrc, add the following line.
 HISTFILE=$HOME/this/repository/path/save-zsh-history/.zsh_history
 
 > rm -rf .git
@@ -21,7 +22,7 @@ Then, host this git repository to public or private repository (I recommend priv
 
 ## Usage
 
-When you save .zsh_history, then execute following commands.
+Execute following commands when you save .zsh_history,
 
 ```console
 > cargo run  # save only useful commands from .zsh_history, delete others.
