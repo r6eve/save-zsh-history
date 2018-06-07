@@ -1,5 +1,5 @@
 [package]
-name = "zsh-history"
+name = "save-zsh-history"
 version = "0.1.0"
 authors = ["r6eve <r6eve179f@gmail.com>"]
 
